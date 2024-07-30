@@ -26,6 +26,10 @@ img {
     --text_white: #fff;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 
 
 /* 
