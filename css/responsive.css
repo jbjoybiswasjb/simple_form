@@ -186,9 +186,13 @@
                                                 Main.
         ===============================================================================
     */
+    #talk_to_a_power_backup_section>div {
+        padding: 3rem;
+    }
+
     #talk_to_a_power_backup_section>div>div:first-child {
-            width: 65%;
-        }
+        width: 65%;
+    }
 
 
 
