@@ -61,7 +61,7 @@ body {
 #talk_to_a_power_backup_section>div {
     display: flex;
     justify-content: space-between;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 #talk_to_a_power_backup_section>div>div:first-child {
