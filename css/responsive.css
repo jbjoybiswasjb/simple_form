@@ -1,0 +1,200 @@
+/* 
+                                        Mobile Devices.
+    ===========================================================================================
+*/
+@media only screen and (max-width: 576px) {
+
+    /* 
+                                                Header.
+        ===============================================================================
+    */
+
+
+
+
+
+
+
+    /* 
+                                                Main.
+        ===============================================================================
+    */
+
+    #talk_to_a_power_backup_section {
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    #talk_to_a_power_backup_section>div {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 4rem 1.8rem;
+    }
+
+    #talk_to_a_power_backup_section>div>div:first-child h2 {
+        font-weight: 800;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #talk_to_a_power_backup_section .form_section {
+        width: 100%;
+    }
+
+    #talk_to_a_power_backup_section fieldset>div:first-child,
+    #talk_to_a_power_backup_section fieldset>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    #talk_to_a_power_backup_section fieldset div:first-child>div,
+    #talk_to_a_power_backup_section fieldset div:nth-child(2)>div {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    /* 
+                                                Footer.
+        ===============================================================================
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+                                            Medium Devices.
+    ===========================================================================================
+*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* 
+                                                Header.
+        ===============================================================================
+    */
+
+
+
+
+
+
+
+    /* 
+                                                Main.
+        ===============================================================================
+    */
+
+    #talk_to_a_power_backup_section>div {
+        flex-direction: column;
+        gap: 5rem;
+        padding: 4rem;
+    }
+
+    #talk_to_a_power_backup_section .form_section {
+        width: 100%;
+    }
+
+    #talk_to_a_power_backup_section>div>div:first-child h2 {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    /* 
+                                                Footer.
+        ===============================================================================
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+                                            Large Devices.
+    ===========================================================================================
+*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* 
+                                                Header.
+        ===============================================================================
+    */
+
+
+
+
+
+
+
+    /* 
+                                                Main.
+        ===============================================================================
+    */
+
+
+
+
+
+
+
+    /* 
+                                                Footer.
+        ===============================================================================
+    */
+}

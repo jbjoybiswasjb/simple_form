@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+:root {
+    --section_bg: #FF5929;
+    --text_black: #000;
+    --text_white: #fff;
+}
+
+
+
+/* 
+
+                                            Header.
+    ===========================================================================================
+*/
+
+
+
+
+
+
+
+
+
+
+/* 
+
+                                                Main.
+    ===========================================================================================
+*/
+#talk_to_a_power_backup_section {
+    width: 85%;
+    margin: 4rem auto;
+    background-color: var(--section_bg);
+}
+
+#talk_to_a_power_backup_section>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+#talk_to_a_power_backup_section>div>div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#talk_to_a_power_backup_section>div>div:first-child h2 {
+    color: var(--text_white);
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+#talk_to_a_power_backup_section .form_section {
+    width: 60%;
+}
+
+#talk_to_a_power_backup_section fieldset {
+    border: none;
+    font-size: 1.1rem;
+}
+
+#talk_to_a_power_backup_section fieldset>div:first-child,
+#talk_to_a_power_backup_section fieldset>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#talk_to_a_power_backup_section fieldset div:first-child>div,
+#talk_to_a_power_backup_section fieldset div:nth-child(2)>div {
+    width: 48.5%;
+}
+
+#talk_to_a_power_backup_section fieldset input,
+#talk_to_a_power_backup_section fieldset select,
+#talk_to_a_power_backup_section fieldset option,
+#talk_to_a_power_backup_section fieldset textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: .5rem 0;
+    padding: .8rem .5rem;
+    border: none;
+    font-size: .9rem;
+}
+
+#talk_to_a_power_backup_section fieldset input[type=submit] {
+    background-color: var(--text_black);
+    color: var(--text_white);
+    cursor: pointer;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+                                                Footer.
+    ===========================================================================================
+*/
